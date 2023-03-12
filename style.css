@@ -5,9 +5,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* body {
-    overflow: hidden;
-  } */
+body {
+    overflow: auto;
+  }
 
 .navbar {
     background-color: rgba(30, 29, 29, 0.637)!important;
