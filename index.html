@@ -6,176 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauricio Fuentes</title>
     <!-- Font Awesome -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-rel="stylesheet"
-/>
-<!-- MDB -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
-rel="stylesheet"
-/>
-<link rel="stylesheet" href="style.css">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <button id="butt" class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarExample01">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button id="butt" class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarExample01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#portada">Portada</a>
+                    </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#frontpage">Portada</a>
+                    <a class="nav-link"  href="#aboutme">Sobre mí</a>
                 </li>
-            <li class="nav-item active">
-                <a class="nav-link"  href="#aboutme">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Proyectos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contacto</a>
-            </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
         <!-- Navbar -->
     </header>
-    <!--PORTADA-->
-    <div class="banner">
-        <section id="frontpage" class="portada">
-            <div id="welcome">
-                <div class="saludo">
-                    <hr>
-                    <h1>Mauricio Fuentes</h1>
-                    <p>Ingeniero Informatico</p>
-                    <hr>
-                </div>
-                
-            </div>
-            <div class="btn-slider-content">
-                <div class="btn-slider">
-                    <i class="fa-regular fa-bars-filter"><a href="#aboutme"></a></i>
-                </div>
-            </div>
-        </section>
-    </div>
-    <!--FIN PORTADA-->
 
-    <!-- SOBRE MI-->
-    <div class="banner">
-        <section id="aboutme" class="sobremi">
-            <div id="welcome">
-                <div class="title1">
-                    <hr>
-                    <div class="titletop">
-                            <h1>Sobre Mí</h1>
-                    </div>
-                    <hr>
-                    <div class="presentacion">
-                        <div class="text-presentation">
-                            <p> Hola, Bienvenido! <br> <br> 
-                                Mi nombre es <strong> Mauricio Andrés Fuentes Bustamante </strong>, nací en junio del año 1989 y actualmente resido en la ciudad de  Viña del mar, Valparaiso, Chile. <br><br>
-                                <strong>Resumen laboral:</strong> <br>
-                                he trabajado en muchas empresas principalmente retail, desde textil hasta tecnología como vendedor, promotor o bodeguero,
-                                también he desarrollado actividades en estas mismas empresas como jefatura de turno o líder de equipo, llevando a cabo el cumplimiento de las tareas asignadas. <br><br>
-                                
-                                <strong>Resumen Académico:</strong> <br>
-                                Poseo un titulo nivel medio de Administración de Empresas, pero actualmente mi rubro es la informatica,
-                                soy titulado de Ingeniería en Informática, carrera cursada en el instituto <a href="http://www.duoc.cl"><strong>Duoc Uc</strong></a> y 
-                                finalizada en Diciembre del año 2022.
-                                <br>
-                                <br>
-                                Me interesaría mucho desarrollarme laboralmente en el desarrollo FrontEnd o en la Gentión de proyectos informáticos.
-                            </p>
-                        </div>
-                        <div class="img-presentation">
-                            <div class="img-container">
-                                <img src="./recursos/yo.png" alt="yo" width="300" height="330">
-                            </div>
-                        </div>
-                    </div>
-                </div>          
-            </div>
-        </section>
-    </div>
-    <!-- FIN SOBRE MI-->
     
+<main class="contenedor-pag">
+    <!--PORTADA-->
+    <section class="section portada" id="portada">
+            <div class="dato">
+                <div class="img-presentation">
+                    <div class="img-container">
+                        <img src="./recursos/yo.png" alt="yo" width="150" height="150">
+                    </div>
+                </div>
+                <h1>Mauricio Fuentes</h1>
+                <div class="divider"></div>
+                <p>Ingeniero Informatico</p>
+            </div>
+    </section>
+    <!--END PORTADA-->
+    
+    <!-- ABOUT ME-->
+    <section class="section aboutme" id="aboutme">
+        <div class="title">
+            <h1>Sobre Mí</h1>
+        </div>
+        <div class="text-presentation">
+            <p> Hola, Bienvenido! <br> <br> 
+                Mi nombre es <strong> Mauricio Andrés Fuentes Bustamante </strong>, nací en junio del año 1989 y actualmente resido en la ciudad de  Viña del mar, Valparaiso, Chile. <br><br>
+                <strong>Resumen laboral:</strong> <br>
+                he trabajado en muchas empresas principalmente retail, desde textil hasta tecnología como vendedor, promotor o bodeguero,
+                también he desarrollado actividades en estas mismas empresas como jefatura de turno o líder de equipo, llevando a cabo el cumplimiento de las tareas asignadas. <br><br>
+                
+                <strong>Resumen Académico:</strong> <br>
+                Poseo un titulo nivel medio de Administración de Empresas, pero actualmente mi rubro es la informatica,
+                soy titulado de Ingeniería en Informática, carrera cursada en el instituto <a href="http://www.duoc.cl"><strong>Duoc Uc</strong></a> y 
+                finalizada en Diciembre del año 2022.
+                <br>
+                <br>
+                Me interesaría mucho desarrollarme laboralmente en el desarrollo FrontEnd o en la Gentión de proyectos informáticos.
+            </p>
+        </div>
+    </section>
+    <!-- END ABOUT ME-->
+
     <!-- SKILLS-->
-    <div class="banner">
-        <section id="skills" class="skills-section">
-            <div class="welcome">
-                <hr>
-                    <div class="titletop">
-                            <h1>Skills</h1>
-                    </div>
-                <hr>
-                <div class="skill-content">               
-                    <div class="skillbar-wrapper">
-                        <div class="skillbar clearfix html5" data-percent="80%">
-                            <h4 class="skillbar-title"><span><i class="fa-brands fa-html5"></i> HTML5</span></h4>
-                            <div class="skillbar-bar"></div>
-                            <div class="skill-bar-percent">80%</div>
-                        </div>
-                        
-                        <div class="skillbar clearfix css" data-percent="60%">
-                            <h4 class="skillbar-title"><span><i class="fa-brands fa-css3-alt"></i> CSS</span></h4>
-                            <div class="skillbar-bar"></div>
-                            <div class="skill-bar-percent">60%</div>
-                        </div>
-                        
-                        <div class="skillbar clearfix javascript" data-percent="40%">
-                            <h4 class="skillbar-title"><span><i class="fa-brands fa-js"></i> JS</span></h4>
-                            <div class="skillbar-bar"></div>
-                            <div class="skill-bar-percent">40%</div>
-                        </div>
-                        
-                        <div class="skillbar clearfix Django" data-percent="50%">
-                            <h4 class="skillbar-title"><span><i class="fa-brands fa-python"></i> Django</span></h4>
-                            <div class="skillbar-bar"></div>
-                            <div class="skill-bar-percent">50%</div>
-                        </div>
-                        
-                        <div class="skillbar clearfix php" data-percent="35%">
-                            <h4 class="skillbar-title"><span><i class="fa-brands fa-php"></i> PHP</span></h4>
-                            <div class="skillbar-bar"></div>
-                            <div class="skill-bar-percent">35%</div>
-                        </div>
-                        
-                        <div class="skillbar clearfix server" data-percent="75%">
-                            <h4 class="skillbar-title"><span><i class="fa-solid fa-database"></i> SQL</span></h4>
-                            <div class="skillbar-bar"></div>
-                            <div class="skill-bar-percent">75%</div>
-                        </div>
-                        
-                        <div class="skillbar clearfix wordpress" data-percent="55%">
-                            <h4 class="skillbar-title"><span><i class="fa-brands fa-wordpress"></i> WP</span></h4>
-                            <div class="skillbar-bar"></div>
-                            <div class="skill-bar-percent">55%</div>
-                        </div>
-                        <div class="skillbar clearfix bootstrap" data-percent="55%">
-                            <h4 class="skillbar-title"><span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span></h4>
-                            <div class="skillbar-bar"></div>
-                            <div class="skill-bar-percent">55%</div>
-                        </div>
-                    </div>
-                </div>	
-            </div>
-        </section>
-    </div>
-    <!-- FIN SKILLS-->
+    <section class="section skills" id="skills">
+        <div class="title">
+            <h1>Skills</h1>
+        </div>
+        <div class="container">
+            <img src="./recursos/skills/html5.png" alt="html">
+            <img src="./recursos/skills/css.png" alt="css">
+            <img src="./recursos/skills/js.png" alt="js">
+            <img src="./recursos/skills/bootstrap.png" alt="">
+            <img src="./recursos/skills/django.png" alt="">
+            <img src="./recursos/skills/react.png" alt="">
+            <img src="./recursos/skills/api.png" alt="">
+            <img src="./recursos/skills/php.png" alt="">
+            <img src="./recursos/skills/wordpress.png" alt="">
+            <img src="./recursos/skills/piton.png" alt="">
+            <img src="./recursos/skills/c-.png" alt="">
+            <img src="./recursos/skills/database.png" alt="">
+            <img src="./recursos/skills/docker.png" alt="">
+            <img src="./recursos/skills/artificial-intelligence.png" alt="">
+            <img src="./recursos/skills/gestion-de-carpetas.png" alt="">
+            <img src="./recursos/skills/github.png" alt="">
+        </div>
+    </section>
+    <!--END SKILLS-->
+
+    <!--PORTFOLIO-->
+    <section class="section" id="portfolio">
+
+    </section>
+    <!--END PORTFOLIO-->
+
+    <!--CONTACT O REDES-->
+    <section class="section" id="contact">
+
+    </section>
+    <!-- END CONTACT O REDER-->
+
+    <!--FOOTER-->
     
+    <!--END FOOTER-->
+</main>
+                            
     <!-- PORTAFOLIO-->
-    <div class="banner">
+    <!-- <div class="banner">
         <section id="portfolio" class="portfolio">
             <div class="welcome">
                 <hr>
@@ -203,11 +157,11 @@ rel="stylesheet"
                 </div>
             </div>
         </section>
-    </div>
+    </div> -->
     <!-- FIN PORTAFOLIO-->
     
-    <!-- CONTACTO-->
-    <div class="banner">
+    <!-- //CONTACTO// AHORA REDES-->
+    <!-- <div class="banner">
         <section id="contact" class="contact">
             <div class="welcome">
                 <hr>
@@ -216,7 +170,7 @@ rel="stylesheet"
                     </div>
                 <hr>
                 <div class="contact-form">
-                    
+                     -->
                     <!-- <div class="content-form">
                         <form>
                             <div class="form-group">
@@ -234,9 +188,9 @@ rel="stylesheet"
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </form>
                     </div> -->
-                </div>
-            </div>
-
+                <!-- </div>
+            </div> -->
+<!-- 
             <footer id="footer">
                 <div class="container">
                     <ul class="soc-media-ul">
@@ -247,11 +201,11 @@ rel="stylesheet"
                         <li id="footer_line"><a href="https://www.udemy.com/user/mauricio-fuentes-38/" class="fa-solid fa-photo-film" target="_blank"></a></li>
                     </ul>
                 </div>
-              </footer>
-        </section>
+            </footer>
+        </section> -->
 
         
-    </div>
+    <!-- </div> -->
     <!-- FIN CONTACTO-->
     
 
