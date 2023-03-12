@@ -119,8 +119,9 @@ body {
 
     .text-presentation{
         overflow:auto;
-        min-height: fit-content;
-    }   
+        font-size: 14px;
+    }
+
 }
 
 .text-presentation{
