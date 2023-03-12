@@ -112,17 +112,22 @@ body {
     color: #bbb;
 }
 
-@media (max-width: 1024px){
-    .title{
-        margin-top: 50px;
+@media (max-width: 1024px) {
+    .title {
+      margin-top: 50px;
     }
-
-    .text-presentation{
-        overflow:auto;
-        font-size: 14px;
+  
+    .text-presentation {
+      overflow: auto;
+      font-size: 16px;
+      height: auto;
+      word-wrap: break-word;
     }
-
-}
+    
+    .presentacion {
+      max-width: 100%;
+    }
+  }
 .presentacion{
     box-shadow: 2px 2px 2px 2px rgba(102, 5, 5, 0.337);
     max-width: 800px;
