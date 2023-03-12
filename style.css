@@ -123,13 +123,16 @@ body {
     }
 
 }
-
-.text-presentation{
-    background-color: rgba(0, 0, 0, 0.398);
-    padding: 5px;
+.presentacion{
     box-shadow: 2px 2px 2px 2px rgba(102, 5, 5, 0.337);
     max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.398);
     border-radius: 5px;
+    min-height: fit-content;
+}
+.text-presentation{
+    padding: 5px;
+
     color: #bbb;
 }
 .text-presentation p{
