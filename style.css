@@ -125,7 +125,7 @@ body {
     padding: 5px;
     box-shadow: 2px 2px 2px 2px rgba(102, 5, 5, 0.337);
     max-width: 800px;
-    height: fit-content;
+    min-height: fit-content;
     border-radius: 5px;
     color: #bbb;
     overflow-wrap: break-word;
