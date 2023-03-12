@@ -131,7 +131,9 @@ body {
     overflow-wrap: break-word;
 
 }
-
+.text-presentation p{
+    height: 100%;
+}
 .skills{
     display: flex;
     flex-wrap: wrap;
