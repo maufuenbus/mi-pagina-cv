@@ -5,6 +5,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    overflow: hidden;
+  }
+
 .navbar {
     background-color: rgba(30, 29, 29, 0.637)!important;
     width: 100%;
@@ -75,16 +79,17 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .dato h1{
     border-bottom: 1px solid #790808;
     margin: 2px 0;
 }
+
 .dato p{
     font-size: 18;
 }
+
 .img-presentation img{
     box-shadow: 2px 2px 2px 2px rgba(102, 5, 5, 0.337);
     border-radius: 30px;
@@ -109,8 +114,10 @@
 
 @media (max-width: 1024px){
     .title{
-        margin-top: 35px;
+        margin-top: 50px;
     }
+
+    
 }
 
 .text-presentation{
@@ -121,6 +128,7 @@
     height: fit-content;
     border-radius: 5px;
     color: #bbb;
+    overflow-wrap: break-word;
 
 }
 
