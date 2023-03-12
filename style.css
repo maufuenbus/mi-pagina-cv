@@ -5,9 +5,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
+/* body {
     overflow: hidden;
-  }
+  } */
 
 .navbar {
     background-color: rgba(30, 29, 29, 0.637)!important;
@@ -131,9 +131,10 @@ body {
 .presentacion{
     box-shadow: 2px 2px 2px 2px rgba(102, 5, 5, 0.337);
     max-width: 800px;
+    
     background-color: rgba(0, 0, 0, 0.398);
     border-radius: 5px;
-    min-height: fit-content;
+    height: fit-content;
 }
 .text-presentation{
     padding: 5px;
@@ -143,6 +144,7 @@ body {
 .text-presentation p{
     height: 100%;
 }
+
 .skills{
     display: flex;
     flex-wrap: wrap;
@@ -154,4 +156,56 @@ body {
     width: 100px;
     height: 100px;
     padding: 20px;
+}
+
+
+/* PROYECTOS*/
+.container-proyects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 18rem;
+    display: inline-block;
+    margin: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: #020202b3;
+}
+
+.card img{
+    width: 260px;
+    height: 200px;
+    margin:15px;
+    border-radius: 15px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 1rem;
+    color: #bbb;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
 }
