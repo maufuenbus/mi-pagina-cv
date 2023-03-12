@@ -175,9 +175,9 @@ body {
 }
 
 .card img{
-    width: 260px;
-    height: 200px;
-    margin:15px;
+    width: 260px!important;
+    height: 200px!important;
+    margin:15px!important;
     border-radius: 15px;
 }
 .card:hover {
