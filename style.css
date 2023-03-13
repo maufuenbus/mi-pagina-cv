@@ -209,3 +209,26 @@ body {
     background-color: #0069d9;
     border-color: #0062cc;
 }
+
+.soc-media-ul{
+    font-size: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.list-inline li{
+    margin:15px auto;
+}
+
+.container-fluid{
+    background-color: #00000056;
+    box-shadow: 2px 2px 2px 2px rgba(102, 5, 5, 0.337);
+}
+
+.datos-contact{
+    color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
