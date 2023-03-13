@@ -26,7 +26,7 @@ body {
 }
 
 /* BG IMG */
-.contenedor-pag{
+.banner{
 	position: relative;
 	width: 100%;
 	background-size: cover;
@@ -37,14 +37,13 @@ body {
 	animation: banner 28s infinite linear;
 }
 
-@keyframes contenedor-pag{
+@keyframes banner {
 	0%{
 		background-image: url('./recursos/img/banner-1.jpg');
 	}
 	25%{
 		background-image: url('./recursos/img/banner-1.jpg');
 	}
-
 
 	26%{
 		background-image: url('./recursos/img/banner-2.jpg');
@@ -60,6 +59,8 @@ body {
 		background-image: url('./recursos/img/banner-4.jpg');
 	}
 }
+
+
 
 .section{
     width: 100%;
